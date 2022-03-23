@@ -1,0 +1,3 @@
+Because there are both text items and numerical items in the original data, we used Perl language to write programs to preprocess  gene expression data of human brains. Based on gene expression and interaction data, we generated a VEC file for each tissue sample to record the gene expression network in the sample. 
+
+We wrote programs based on MATLAB to extract the expression charaters and propertical indice of the gene expression networks. The programs to compute the propertical indice of the networks were saved in the file of matlab_bgl. Then we mapped the sample properties to the brain region according to their MNI coordinates, and drawed the distribution of gene expression properties.
